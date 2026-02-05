@@ -1,0 +1,54 @@
+.nailTipDetailWrapper {
+  background: #333;
+  height: auto;
+}
+.nailTipDetailContent {
+  padding-top: 20rem;
+  display: flex;
+  flex-wrap: wrap;
+  width: 75%;
+  margin: 0 auto;
+}
+.nailTipDetailImgWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+.nailTipDetailImgMain {
+  /* border: 3px solid #fff; */
+  width: 50rem;
+  height: 50rem;
+  background-size: contain;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+  border-radius: 1rem;
+}
+.nailTipDetailImgSubWrapper {
+  margin-right: 5rem;
+}
+.nailTipDetailImgSub {
+  /* border: 2px solid #fff; */
+  width: 10rem;
+  height: 10rem;
+  background-size: contain;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+.nailTipDetailImgSub:hover {
+  opacity: 1;
+}
+.nailTipDetailImgSub:not(:last-child) {
+  margin-bottom: 1rem;
+}
+.nailTipDetailText {
+  margin-top: 2rem;
+}
+.nailTipDetailText .price {
+  margin: 2rem 0 5rem 0;
+}
+.nailTipDetailText .tipBuy {
+  margin-top: 5rem;
+  width: 30rem;
+}

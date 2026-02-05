@@ -1,0 +1,40 @@
+.allergyFv {
+  background-image: url("/fv/fvBgImg1.jpg");
+  height: 50rem;
+  width: 100%;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.allergyFv .title {
+  margin-top: 20rem;
+}
+.allergyWrapper {
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+}
+.allergyWrapper h2 {
+  margin: 10rem 0;
+}
+/* .allergy {
+  height: auto;
+  width: 50%;
+  background: #fff;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.allergy p {
+  color: #333;
+  padding: 3rem 0;
+}
+.allergyDetails {
+  font-size: 1.8rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+} */

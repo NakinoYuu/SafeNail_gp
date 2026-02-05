@@ -1,0 +1,65 @@
+.experience:not(:last-child) {
+  margin-bottom: 3rem;
+}
+.experience {
+  width: 75%;
+  min-height: 25rem;
+  background: #fff;
+  margin: 0 auto;
+  display: flex;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+.experienceImg {
+  /* border: solid 5px #333; */
+  height: 24rem;
+  width: 20%;
+  background-size: contain;
+  margin: auto 0;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.experienceImg1 {
+  background-image: url("/allergy/sasun-bughdaryan-S52_QspnHYI-unsplash.jpg");
+}
+.experienceImg2 {
+  background-image: url("/allergy/tora-chu-_YbtbHrM-4g-unsplash.jpg");
+}
+.experienceImg3 {
+  background-image: url("/allergy/roger-vaughan-TFSl6xZ-lvA-unsplash.jpg");
+}
+.experienceImg4 {
+  background-image: url("/allergy/towfiqu-barbhuiya-dNe6TyX_laM-unsplash.jpg");
+}
+
+.experienceText {
+  width: 65%;
+  padding: 2rem;
+}
+.experienceText p {
+  color: #333;
+}
+.experienceDetail {
+  align-self: flex-end;
+  height: 6rem;
+  width: 15%;
+  background: #fff;
+  border: solid #333 3px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.experienceDetail:hover {
+  background: #333;
+}
+.experienceDetail p {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.experienceDetail:hover p {
+  color: #fff;
+}

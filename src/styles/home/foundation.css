@@ -1,0 +1,49 @@
+.call {
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+}
+.call h6 {
+  margin-bottom: 3rem;
+}
+.FNDescription {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 8rem;
+}
+.FNDetails {
+  width: 30%;
+  height: auto;
+  background: #fff;
+  border-radius: 1rem;
+}
+.FNDetails h2 {
+  color: #333;
+  margin: 3.5rem 0 2.5rem 0;
+  text-align: center;
+}
+.FNImg1,
+.FNImg2,
+.FNImg3 {
+  height: 14rem;
+  width: auto;
+}
+.FNImg1 {
+  background-image: url("/FundamentalKnowledge/shortNail.png");
+}
+.FNImg2 {
+  background-image: url("/FundamentalKnowledge/allergy.png");
+}
+.FNImg3 {
+  background-image: url("/FundamentalKnowledge/gel.png");
+}
+
+.FNDetails p {
+  color: #333;
+  margin: 3.5rem auto;
+  width: 85%;
+  text-align: center;
+}

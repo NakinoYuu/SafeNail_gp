@@ -1,0 +1,52 @@
+.header {
+  position: absolute;
+  top: 4rem;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 7rem;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  position: fixed;
+  z-index: 1;
+}
+.navLogo {
+  background-image: url("/logo/SafeNailLogoWhite.png");
+  background-size: contain;
+  width: 7rem;
+  height: 7rem;
+}
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navBar button {
+  font-size: 2rem;
+  transition: transform 0.3s ease;
+}
+.navBar button:hover {
+  transform: scale(1.1);
+}
+.navName {
+  padding: 0 1rem;
+}
+
+/* スマホ */
+@media screen and (max-width: 768px) {
+  .header {
+    height: 5rem;
+    width: 95%;
+  }
+  .navLogo {
+    width: 5rem;
+    height: 5rem;
+  }
+  .navBar button {
+    font-size: 1.6rem;
+  }
+  .navName {
+    padding: 0 0.5rem;
+  }
+}

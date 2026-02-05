@@ -1,0 +1,89 @@
+.nailTipWrapper {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+.nailTipContent {
+  margin: 0 auto;
+}
+.nailTipContent:not(:last-child) {
+  margin-right: 5rem;
+}
+
+.tipImg {
+  /* background-image: url("/logo/SafeNailLogoWhite.png"); */
+  height: 30rem;
+  width: 30rem;
+  background-size: contain;
+  margin: auto 0;
+  border-radius: 1rem;
+  /* border: #fff 3px solid; */
+}
+.tipText {
+  text-align: center;
+}
+.tipText h2 {
+  padding-bottom: 1rem;
+  margin-top: 2rem;
+}
+.tipText p {
+  margin-bottom: 2rem;
+}
+
+.tipText button {
+  display: flex;
+  flex-flow: column;
+}
+.tipDetail {
+  /* border: solid #fff 3px; */
+  align-self: flex-end;
+  height: 5rem;
+  width: 90%;
+  /* background: #fff; */
+  border: #fff solid 2px;
+  text-align: center;
+  line-height: 4.5rem;
+  margin: 0 auto;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+.tipDetail p {
+  color: #fff;
+}
+.tipDetail:hover {
+  background: #fff;
+}
+.tipDetail:hover p {
+  color: #333;
+}
+.arrowWrapper {
+  width: 75%;
+  margin: 0 auto;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: end;
+}
+.arrow {
+  height: 5rem;
+  width: 8rem;
+  border: solid #fff 3px;
+  background: #333;
+  border-radius: 3rem;
+}
+.right {
+  margin-left: 1rem;
+}
+.arrow p {
+  font-size: 2.5rem;
+}
+.fa-solid {
+  font-size: 3.5rem;
+}
+.fa-caret-left {
+  padding-left: 0.5rem;
+}
+.fa-caret-right {
+  padding-right: 0.5rem;
+}

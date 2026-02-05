@@ -1,0 +1,87 @@
+.nailFv {
+  background-image: url("/fv/fvBgImg1.jpg");
+  height: 50rem;
+  width: 100%;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nailFv .title {
+  margin-top: 20rem;
+}
+.nailWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nailWrapper h2:not(:last-child) {
+  padding-right: 5rem;
+}
+.nailWrapper h2 {
+  margin: 10rem 0;
+  cursor: pointer;
+}
+.nailWrapper h2 p {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 1.5rem;
+}
+.nailWrapper h2::after {
+  content: none !important;
+}
+
+.nailWrapper h2.active p::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: white;
+}
+
+.nailGrid {
+  width: 75%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 5rem;
+  row-gap: 10rem;
+  margin: 0 auto;
+}
+@media (max-width: 1300px) {
+  .nailGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 850px) {
+  .nailGrid {
+    grid-template-columns: 1fr;
+    width: 70%;
+  }
+}
+.nailTip {
+  margin: 0 auto;
+}
+.nailWrapper h2 {
+  cursor: pointer;
+  opacity: 0.4;
+}
+
+.nailWrapper h2.active {
+  opacity: 1;
+  position: relative;
+}
+
+.nailWrapper h2.active::after {
+  content: "";
+  position: absolute;
+  bottom: -1rem;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: #fff;
+}

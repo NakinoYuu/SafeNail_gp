@@ -1,0 +1,49 @@
+.call {
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+}
+.call h6 {
+  margin-bottom: 3rem;
+}
+.AKDescription {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 8rem;
+}
+.AKDetails {
+  width: 30%;
+  height: auto;
+  background: #fff;
+  border-radius: 1rem;
+}
+.AKDetails h2 {
+  color: #333;
+  margin: 3.5rem 0 2.5rem 0;
+  text-align: center;
+}
+.AKImg1,
+.AKImg2,
+.AKImg3 {
+  height: 14rem;
+  width: auto;
+}
+.AKImg1 {
+  background-image: url("/AppliedKnowledge/offcycle.png");
+}
+.AKImg2 {
+  background-image: url("/AppliedKnowledge/off.png");
+}
+.AKImg3 {
+  background-image: url("/AppliedKnowledge/longNail.png");
+}
+
+.AKDetails p {
+  color: #333;
+  margin: 3.5rem auto;
+  width: 85%;
+  text-align: center;
+}

@@ -1,0 +1,142 @@
+.enter {
+  width: 100%;
+  height: auto;
+  background: #333;
+}
+.headline {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  line-height: 5rem;
+  padding-top: 21rem;
+  width: 90%;
+  margin: 0 auto;
+}
+.headline h2 {
+  border: solid 2px #fff;
+  width: 30rem;
+  height: 5rem;
+  line-height: 5rem;
+  margin-right: 1rem;
+}
+.headline h2:not(:last-child) {
+  margin-right: 1rem;
+}
+.headline .active {
+  background: #fff;
+  color: #333;
+}
+/* 入力・確認画面 */
+.formCardContents {
+  margin: 7rem 0 5rem 0;
+}
+.formCard {
+  width: 50%;
+  padding: 5rem;
+  border-radius: 1rem;
+  background: #fff;
+  color: #333;
+  margin: 0 auto;
+}
+.twoCol {
+  width: 80%;
+}
+.formCard h2 {
+  align-self: flex-start;
+  margin-bottom: 2rem;
+  color: #333;
+}
+.formCard h2:not(:first-child) {
+  margin-top: 5rem;
+}
+.formCardWrapper {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.twoCol {
+  display: flex;
+  width: 80%;
+  height: auto;
+  gap: 2rem;
+}
+input,
+select,
+.radio {
+  width: 80%;
+  height: auto;
+  border: 2px solid #333;
+  border-radius: 1rem;
+  margin-bottom: 1.5rem;
+  padding: 2.5rem 2rem;
+  font-size: 1.8rem;
+  font-weight: bold;
+  box-sizing: border-box;
+}
+select {
+  cursor: pointer;
+}
+select:hover {
+  background: rgba(51, 51, 51, 0.05);
+}
+
+.radio {
+  cursor: pointer;
+  transition: 0.25s;
+  display: flex;
+  align-items: center;
+}
+
+.radio:hover {
+  background: rgba(51, 51, 51, 0.05);
+}
+/* ラジオボタンの丸の部分 */
+.radio input {
+  accent-color: #333;
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-right: 1.5rem;
+  margin-bottom: -0.1rem;
+}
+/* 確認画面 */
+.confirm p {
+  color: #333;
+  margin-bottom: 3rem;
+  font-size: 2rem;
+}
+.confirm span {
+  font-size: 2rem;
+
+  color: rgba(51, 51, 51, 0.75);
+}
+.confirm .important {
+  font-size: 2rem;
+  color: rgb(219, 30, 30);
+}
+/* 完了画面 */
+.complete {
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+}
+.complete h5 {
+  margin: 10rem 0 8rem 0;
+}
+.doneLogo {
+  background-image: url("/logo/SafeNailLogoWhite.png");
+  height: 32rem;
+  width: 32rem;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+}
+.error {
+  width: 75%;
+  color: rgb(219, 30, 30);
+  font-size: 1.3rem;
+  margin-top: -1.5rem;
+  margin: -1rem 0 2rem 0;
+  text-align: start;
+}

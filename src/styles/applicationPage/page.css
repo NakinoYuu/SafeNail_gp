@@ -1,0 +1,131 @@
+.applicationFv {
+  background-image: url("/fv/fvBgImg1.jpg");
+  height: 50rem;
+  width: 100%;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.applicationFv .title {
+  margin-top: 20rem;
+}
+.applicationWrapper {
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+}
+.applicationWrapper h4 {
+  margin: 10rem 0;
+  color: #ffff;
+}
+.applicationWrapper h4:not(:first-child) {
+  margin-top: 20rem;
+}
+.applicationWrapper p {
+  line-height: 3rem;
+}
+.offDescriptionWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  margin: 3rem 0 2rem 0;
+  width: 65%;
+  justify-content: space-between;
+}
+.offDescriptionContent {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.offDescriptionContent p {
+  margin-bottom: 2rem;
+}
+.troubleDetailsImg {
+  height: 24rem;
+  width: 23rem;
+  border: #fff 2px solid;
+}
+.weeks {
+  margin-bottom: 5rem;
+}
+.troubleDetailsImg1 {
+  background-image: url("/AppliedKnowledge/float.jpg");
+}
+.troubleDetailsImg2 {
+  background-image: url("/AppliedKnowledge/trouble.jpg");
+}
+.troubleDetailsImg3 {
+  background-image: url("/AppliedKnowledge/burden.jpg");
+}
+
+.knowledge {
+  width: 75%;
+}
+.knowledge2,
+.knowledge3 {
+  margin-top: 10rem;
+}
+.knowledge2 p {
+  margin-bottom: 1rem;
+}
+.knowledge2 .detail .detail {
+  margin-bottom: 2rem;
+}
+.knowledge h2 {
+  margin-bottom: 5rem;
+}
+.knowledge .detail {
+  margin-left: 2rem;
+}
+.toolWrapper {
+  width: 75%;
+}
+.toolWrapper h2 {
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+}
+.toolContents {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 2rem;
+}
+.toolContents p {
+  margin-right: 5rem;
+  margin-bottom: 5rem;
+}
+.tool {
+  width: 50rem;
+  height: 37.2rem;
+  border-radius: 1rem;
+  background-size: contain;
+}
+.tool2 {
+  background-image: url("/AppliedKnowledge/tool2.jpg");
+}
+.tool3 {
+  background-image: url("/AppliedKnowledge/tool3.jpg");
+  height: 35.2rem;
+}
+.applicationFv .procedureWrapper {
+  margin-left: 2rem;
+}
+.procedureWrapper h6 {
+  text-align: start;
+  margin-bottom: 0;
+}
+.procedureWrapper .detail {
+  margin: 2rem 0 3rem 2rem;
+}
+.specialProcedure {
+  margin: 3rem 0;
+  margin-bottom: 3rem !important;
+}
+.point {
+  margin-top: 2rem;
+}
+.point p:not(:last-child) {
+  margin-bottom: 1rem;
+}

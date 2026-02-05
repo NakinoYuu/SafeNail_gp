@@ -1,0 +1,27 @@
+.newsWrapper {
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+}
+.news {
+  height: auto;
+  width: 50%;
+  background: #fff;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.news p {
+  color: #333;
+  padding: 3rem 0;
+}
+.ymd {
+  font-size: 1.4rem;
+  margin-left: 5rem;
+}
+.newsDetails {
+  font-size: 1.8rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}

@@ -1,0 +1,28 @@
+.fvImg {
+  background-image: url("/fv/fvBgImg1.jpg");
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ロゴ初期状態 */
+.fvLogo {
+  background-image: url("/logo/SafeNailLogoWhiteLine.png");
+  height: 35rem;
+  width: 35rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 3rem;
+  opacity: 0;
+  transform: translateY(80px);
+  transition: all 1.8s ease;
+}
+
+/* 表示後 */
+.fvLogo.isVisible {
+  opacity: 1;
+  transform: translateY(0);
+}
